@@ -347,7 +347,7 @@
 {
 "ControlName" "CExImageButton"
 "fieldName" "spy"
-"xpos" "375"
+"xpos" "372"
 "ypos" "305"
 "zpos" "6"
 "wide" "150"

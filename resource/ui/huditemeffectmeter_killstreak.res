@@ -106,7 +106,7 @@
 "textAlignment" "north-west"
 "dulltext" "0"
 "brighttext" "0"
-"font" "m0refont14"
+"font" "Axis14"
 "fgcolor_override" "255 255 255 255"
 }
 "ItemEffectMeterCountKillstreak" 
