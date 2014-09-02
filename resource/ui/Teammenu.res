@@ -143,7 +143,7 @@
 {
 "ControlName" "CTFTeamButton"
 "fieldName" "teambutton3"
-"xpos" "307"
+"xpos" "302"
 "ypos" "314"
 "zpos" "100"
 "wide" "250"
@@ -233,7 +233,7 @@
 {
 "ControlName" "CExLabel"
 "fieldName" "TeamMenuSpectate"
-"xpos" "305"
+"xpos" "300"
 "ypos" "317"
 "zpos" "3"
 "wide" "250"
@@ -319,7 +319,7 @@
 {
 "ControlName" "CExLabel"
 "fieldName" "RedCount"
-"xpos" "490"
+"xpos" "485"
 "ypos" "247"
 "zpos" "1"
 "wide" "30"
@@ -397,7 +397,7 @@
 {
 "ControlName" "CExLabel"
 "fieldName" "RedLabel"
-"xpos" "466"
+"xpos" "461"
 "ypos" "199"
 "zpos" "2"
 "wide" "70"
@@ -436,7 +436,7 @@
 {
 "ControlName" "CTFImagePanel"
 "fieldName" "SpectateFrame"
-"xpos" "307"
+"xpos" "302"
 "ypos" "314"
 "zpos" "1"
 "wide" "250"
