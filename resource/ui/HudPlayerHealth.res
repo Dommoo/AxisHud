@@ -75,7 +75,7 @@
 "enabled" "1"
 "labelText" "%Health%"
 "textAlignment" "north-east"
-"font" "Axis68"
+"font" "Axis48"
 "fgcolor" "QHUDNormal"
 }
 "PlayerStatusHealthValueShadow" 
@@ -91,7 +91,7 @@
 "enabled" "1"
 "labelText" "%Health%"
 "textAlignment" "north-east"
-"font" "Axis68"
+"font" "Axis48"
 "fgcolor" "0 0 0 255"
 }
 "PlayerStatusBleedImage" 
@@ -310,7 +310,7 @@
 {
 "ControlName" "CExImageButton"
 "fieldName" "HealthBG"
-"xpos" "240"
+"xpos" "9001"
 "ypos" "413"
 "zpos" "-10"
 "wide" "130"

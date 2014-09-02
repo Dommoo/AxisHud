@@ -27,7 +27,7 @@
 "enabled" "1"
 "labelText" "%metal%"
 "textAlignment" "north-west"
-"fgcolor" "40 196 227 117"
+"fgcolor" "9 232 223 110"
 "font" "Axis24"
 }
 "DamageAccountValueShadow" 
