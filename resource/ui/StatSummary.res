@@ -277,7 +277,8 @@
 				"ypos_hidef"			"49"
 				"ypos_lodef"			"49"
 				"zpos"			"5"
-				"wide"			"150"
+				"wide"			"150" [$WIN32]
+				"wide"			"170" [$X360]
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -437,7 +438,8 @@
 			"xpos"			"c-285"
 			"xpos_hidef"			"c-193"
 			"xpos_lodef"			"c-193"
-			"ypos"			"183"
+			"ypos"			"183" [!$OSX]
+			"ypos"			"185" [$OSX]
 			"ypos_hidef"			"32"
 			"ypos_lodef"			"32"
 			"wide"			"386"
@@ -1820,12 +1822,14 @@
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"center"
 			"xpos"			"c+124"
-			"ypos"			"183"
+			"ypos"			"183" [!$OSX]
+			"ypos"			"180" [$OSX]
 			"wide"			"172"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"1"	[$WIN32]
+			"visible"		"0"	[$X360]
 			"enabled"		"1"
 		}							
 		"RecordsSubBG1"
@@ -1867,7 +1871,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"0"	[$WIN32]
+			"visible"		"1"	[$X360]
 			"enabled"		"1"
 		}	
 		"OverallRecord1Label"
@@ -2596,7 +2601,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
 		"xpos"			"c-285"
-		"ypos"			"1412"
+		"ypos"			"1412"		//412
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
@@ -2618,7 +2623,7 @@
 		"xpos"			"c-245"
 		"xpos_lodef"			"c-180"
 		"xpos_hidef"			"c-180"
-		"ypos"			"1405"
+		"ypos"			"1405"				//405
 		"ypos_hidef"			"362"
 		"ypos_lodef"			"362"
 		"zpos"			"12"
@@ -2634,12 +2639,12 @@
 		"enabled"		"1"
 		"wrap"			"1"
 	}
-	"NextTipButton"
+	"NextTipButton" [$WIN32]
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
 		"xpos"			"c-248"
-		"ypos"			"1310"
+		"ypos"			"1310"		//310
 		"zpos"			"6"
 		"wide"			"90"
 		"tall"			"15"
@@ -2654,7 +2659,7 @@
 		"brighttext"	"0"
 		"Command"		"nexttip"
 	}
-	"ResetStatsButton"
+	"ResetStatsButton" [$WIN32]
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
@@ -2674,7 +2679,7 @@
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
 	}
-	"CloseButton"
+	"CloseButton" [$WIN32]
 	{
 		"ControlName"		"Button"
 		"fieldName"		"CloseButton"
@@ -2693,5 +2698,51 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
+	}
+	"Footer" [$X360]
+	{
+		"ControlName"		"CTFFooter"
+		"fieldName"			"Footer"
+		"bgcolor"			"TanDarker"
+		"paintbackground"	"1"
+		"tall"				"100"
+		"tall_lodef"				"60"
+		"center"			"1"
+		"buttonoffsety"		"20"
+		"buttonoffsety_lodef"		"5"
+		"button_separator"	"10"
+		"button_separator_lodef"	"2"
+		"fonttext"			"MatchmakingDialogMenuLarge"
+		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
+		"buttongap"			"50"
+		"textadjust"		"3"
+		"textadjust_lodef"		"0"
+		"zpos"				"6"
+		"fgcolor"			"HudOffWhite" 	
+		
+		"button"
+		{
+			"name"		"back"
+			"text"		"#GameUI_Back"
+			"icon"		"#GameUI_Icons_B_BUTTON"	
+		}
+		
+		"button"
+		{
+			"name"		"nexttip"
+			"text"		"#TF_NextTip_360"
+			"icon"		"#GameUI_Icons_A_BUTTON"	
+		}
+	}		
+	"TitleBanner" [$X360]
+	{
+		"ControlName"	"ImagePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"128"
+		"image"			"menu_header"
+		"visible_lodef"	"0"
+		"enabled_lodef"	"0"
 	}
 }

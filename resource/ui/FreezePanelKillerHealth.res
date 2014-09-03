@@ -76,8 +76,8 @@
 {
 "ControlName" "Label"
 "fieldName" "KillerStatusHealthValue"
-"xpos" "280"
-"ypos" "271"
+"xpos" "275"
+"ypos" "371"
 "zpos" "5"
 "wide" "60"
 "tall" "36"

@@ -2880,6 +2880,17 @@
 "outline" "0"
 }
 }
+"Crosshairs15" 
+{
+"1" 
+{
+"name" "Crosshairs"
+"tall" "15"
+"additive" "0"
+"antialias" "1"
+"outline" "0"
+}
+}
 }
 "Borders" 
 {

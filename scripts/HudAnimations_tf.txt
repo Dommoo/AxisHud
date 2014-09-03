@@ -457,6 +457,8 @@ event HudMedicCharged
 {
         Animate ChargeMeter      FgColor            "QHUDMedicCharge1"          Linear 0.0 0.1
         Animate ChargeMeter      FgColor            "QHUDMedicCharge2"          Linear 0.3 0.4
+        Animate ChargeLabel      FgColor            "QHUDMedicCharge1"          Linear 0.0 0.1
+        Animate ChargeLabel      FgColor            "QHUDMedicCharge2"          Linear 0.3 0.4
  
         RunEvent HudMedicChargedLoop    0.6
 }
@@ -473,6 +475,7 @@ event HudMedicChargedStop
         StopEvent HudMedicChargedLoop 0.0
         
         Animate ChargeMeter      FgColor            "255 255 255 255"        Linear 0.0 0.0001
+        Animate ChargeLabel      FgColor            "QHUDChargeLabel"        Linear 0.0 0.0001
 }
  
 //====================================
