@@ -19,5 +19,7 @@
 "textAlignment" "north-west"
 "dulltext" "0"
 "brighttext" "0"
+"bgcolor_override" "QHUDChargeMeterBG"
+"fgcolor_override" "QHUDChargeMeterFG"
 }
 }

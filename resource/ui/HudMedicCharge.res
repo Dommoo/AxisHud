@@ -21,7 +21,7 @@
 "dulltext" "0"
 "brighttext" "0"
 "font" "Axis48"
-"fgcolor" "255 255 255 255"
+"fgcolor" "QHUDChargeLabel"
 }
 "IndividualChargesLabel" 
 {
@@ -61,6 +61,8 @@
 "textAlignment" "north-west"
 "dulltext" "0"
 "brighttext" "0"
+"bgcolor_override" "QHUDChargeMeterBG"
+"fgcolor_override" "QHUDChargeMeterFG"
 }
 "ResistIcon" 
 {

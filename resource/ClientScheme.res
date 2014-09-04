@@ -146,6 +146,9 @@
 "UpgradeSelectedBg" "249 138 83 255"
 "UpgradeDisabledFg" "64 59 52 255"
 "UpgradeDisabledBg" "79 77 68 255"
+"QHUDChargeMeterBG" "255 255 255 100"
+"QHUDChargeMeterFG" "255 255 255 255"
+"QHUDChargeLabel" "255 255 255 255"
 }
 "BaseSettings" 
 {

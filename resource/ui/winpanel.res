@@ -193,7 +193,7 @@
 {
 "ControlName" "CExLabel"
 "fieldName" "AdvancingTeamLabel"
-"font" "m0refont12"
+"font" "Axis18"
 "fgcolor" "m0rewhite"
 "xpos" "60"
 "ypos" "112"
