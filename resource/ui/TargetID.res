@@ -147,7 +147,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"Axis9"
 		"xpos"			"52"
-		"ypos"			"4"		
+		"ypos"			"260"		
 		"zpos"			"4"
 		"wide"			"250"
 		"tall"			"12"
