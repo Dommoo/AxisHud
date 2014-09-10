@@ -322,4 +322,20 @@
 "PaintBackgroundType" "0"
 "textinsety" "99"
 }
+"PlayerStatus_Parachute"
+{
+    "ControlName"   "ImagePanel"
+    "fieldName"     "PlayerStatus_Parachute"
+    "xpos"          "85"
+    "xpos_minmode"  "70"
+    "ypos"          "325"
+    "zpos"          "7"
+    "wide"          "31"
+    "tall"          "31"
+    "visible"       "0"
+    "enabled"       "1"
+    "scaleImage"    "1" 
+    "image"         ""
+    "fgcolor"       "TanDark"
+}
 }

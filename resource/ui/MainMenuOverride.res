@@ -2310,7 +2310,7 @@
 "ypos" "360"
 "zpos" "1"
 "wide" "400"
-"tall" "56"
+"tall" "60"
 "autoResize" "0"
 "pinCorner" "3"
 "visible" "1"
