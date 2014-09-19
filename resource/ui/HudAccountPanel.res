@@ -67,7 +67,7 @@
 "textAlignment" "north-west"
 "dulltext" "0"
 "brighttext" "0"
-"font" "m0refont28"
+"font" "Axis28"
 "fgcolor" "m0rewhite"
 }
 "AccountValueShadow" 
@@ -81,14 +81,14 @@
 "tall" "30"
 "autoResize" "1"
 "pinCorner" "2"
-"visible" "1"
+"visible" "0"
 "enabled" "1"
 "tabPosition" "0"
 "labelText" "%metal%"
 "textAlignment" "north-west"
 "dulltext" "0"
 "brighttext" "0"
-"font" "m0refont28"
+"font" "Axis28"
 "fgcolor" "0 0 0 255"
 }
 }
